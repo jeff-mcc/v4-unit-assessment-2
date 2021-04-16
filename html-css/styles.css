@@ -12,3 +12,46 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+body{
+    /* background-color: aquamarine; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 37, 37);
+}
+
+h1{
+    color:rgb(42, 171, 226);
+}
+
+.headerC{
+    margin: 20px;
+}
+
+#headerD{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.placeholder{
+    height: 100px;
+    width: auto;
+}
+
+#profile{
+    height: 100px;
+    width: auto;
+}
+
+#larger{
+    font-size: 14px;
+    color: rgb(42, 171, 226);
+}
