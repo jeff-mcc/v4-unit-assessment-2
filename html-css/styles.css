@@ -43,7 +43,7 @@ h1{
 }
 
 #headerD{
-    width: 400px;
+    width: 470px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,7 @@ main{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: 12.5%;
     flex: 1;
     /* margin-bottom: auto; */
@@ -68,6 +68,7 @@ main{
 .placeholder{
     height: 130px;
     width: auto;
+    margin: 30px;
 }
 
 #phold{
@@ -75,13 +76,51 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     align-content: space-between;
 }
 
+aside{
+    display:flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+
+.shadowbox{
+    width: 270px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 55px rgba(102, 75, 75, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#box1{
+    height: 280px;
+}
+
 #profile{
-    height: 150px;
+    height: 170px;
     width: auto;
+}
+
+#yrnm{
+    margin-bottom: 0;
+}
+
+#popArt{
+    margin-bottom: 13px;
+}
+
+ol{
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+li{
+    margin: 10px 0;
 }
 
 #larger{
@@ -89,7 +128,8 @@ main{
     color: rgb(42, 171, 226);
     display: flex;
     justify-content: flex-end;
-    margin-top: 0;;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 footer{
